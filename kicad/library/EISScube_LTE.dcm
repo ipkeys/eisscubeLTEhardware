@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2576HVS-12
+D TO-263, 12V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-15
+D TO-263, 15V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-3.3
+D TO-263, 3.3V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-5
+D TO-263, 5V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-ADJ
+D TO-263, Adjustable Output 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 3A Adjustable High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP SIM_Card_w_det_sw
+D SIM Card
+K SIM card UICC
+$ENDCMP
+#
+$CMP SN74LV1T34DBVR
+D Single Power Supply Single Buffer GATE CMOS Logic Level Shifter
+K SN74LV1T34
+$ENDCMP
+#
+$CMP U-Blox-SARA-R4
+D Size-optimized LTE Cat M1/NB1 and EGPRS modules
+K SARA-R4/N4 series
+F https://www.u-blox.com/sites/default/files/SARA-R4_DataSheet_%28UBX-16024152%29.pdf
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+$CMP VBUS05B1-SD0
+D ESD Suppressors / TVS Diodes BiSy Sngl Line 5.5V ESD Prot Diode 16kV
+K VBUS05B1-SD0-G4-08
+F https://www.mouser.com/ds/2/427/vbus05b1-sd0-540995.pdf
+$ENDCMP
+#
+#End Doc Library
