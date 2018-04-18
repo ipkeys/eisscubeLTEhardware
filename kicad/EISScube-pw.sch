@@ -684,8 +684,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 4250 3600 4150
 Wire Wire Line
-	1100 2750 1900 2750
-Wire Wire Line
 	2500 2750 3050 2750
 Wire Wire Line
 	1500 3550 3050 3550
@@ -801,9 +799,9 @@ F 3 "" H 4100 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 2150 4100 2400
-Text GLabel 1150 1100 0    50   Input ~ 0
-24VAC-1
 Text GLabel 1150 1900 0    50   Input ~ 0
+24VAC-1
+Text GLabel 1150 1100 0    50   Input ~ 0
 24VAC-2
 Text GLabel 4550 1500 2    50   Output ~ 0
 +12V
@@ -1001,17 +999,6 @@ F 3 "" H 3050 1600 50  0001 C CNN
 	1    3050 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L PWR_FLAG #FLG043
-U 1 1 5AB4CEB6
-P 1100 2750
-F 0 "#FLG043" H 1100 2825 50  0001 C CNN
-F 1 "PWR_FLAG" V 1200 2850 50  0000 C CNN
-F 2 "" H 1100 2750 50  0001 C CNN
-F 3 "" H 1100 2750 50  0001 C CNN
-	1    1100 2750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7650 1800 9450 1800
 Wire Wire Line
@@ -1175,4 +1162,42 @@ Wire Wire Line
 Connection ~ 2650 4900
 Wire Wire Line
 	3600 6250 3600 5900
+Wire Wire Line
+	1900 2750 1250 2750
+$Comp
+L PWR_FLAG #FLG043
+U 1 1 5AD15A50
+P 3700 1400
+F 0 "#FLG043" H 3700 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 1550 50  0000 C CNN
+F 2 "" H 3700 1400 50  0001 C CNN
+F 3 "" H 3700 1400 50  0001 C CNN
+	1    3700 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1400 3700 1500
+Connection ~ 3700 1500
+Wire Notes Line
+	700  800  5200 800 
+Wire Notes Line
+	5200 800  5200 6700
+Wire Notes Line
+	5200 6700 700  6700
+Wire Notes Line
+	700  6700 700  800 
+Text Notes 4350 950  0    60   ~ 0
+Power
+Wire Notes Line
+	5400 800  5400 3400
+Wire Notes Line
+	5400 3400 10200 3400
+Wire Notes Line
+	10200 3400 10200 800 
+Wire Notes Line
+	10200 800  5400 800 
+Text Notes 5700 950  0    60   ~ 0
+Relay
+Text Notes 9400 950  0    60   ~ 0
+Connector
 $EndSCHEMATC
