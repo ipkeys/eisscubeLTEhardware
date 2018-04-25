@@ -1178,4 +1178,26 @@ $EndComp
 Wire Wire Line
 	3700 1400 3700 1500
 Connection ~ 3700 1500
+Wire Notes Line
+	700  800  5200 800 
+Wire Notes Line
+	5200 800  5200 6700
+Wire Notes Line
+	5200 6700 700  6700
+Wire Notes Line
+	700  6700 700  800 
+Text Notes 4350 950  0    60   ~ 0
+Power
+Wire Notes Line
+	5400 800  5400 3400
+Wire Notes Line
+	5400 3400 10200 3400
+Wire Notes Line
+	10200 3400 10200 800 
+Wire Notes Line
+	10200 800  5400 800 
+Text Notes 5700 950  0    60   ~ 0
+Relay
+Text Notes 9400 950  0    60   ~ 0
+Connector
 $EndSCHEMATC

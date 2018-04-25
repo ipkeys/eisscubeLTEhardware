@@ -1485,4 +1485,6 @@ Text Label 2550 3700 0    60   ~ 0
 TXD
 Text Label 2550 3800 0    60   ~ 0
 RXD
+Text Notes 6000 750  0    60   ~ 0
+Cellular module
 $EndSCHEMATC
