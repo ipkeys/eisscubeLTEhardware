@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM2576HVS-12
+D TO-263, 12V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-15
+D TO-263, 15V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-3.3
+D TO-263, 3.3V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-5
+D TO-263, 5V 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVS-ADJ
+D TO-263, Adjustable Output 3A Step-Down VR High Voltage Input
+K SIMPLE SWITCHER® Step-Down Voltage Regulator 3A Adjustable High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
 $CMP SIM_Card_w_det_sw
 D SIM Card
 K SIM card UICC
