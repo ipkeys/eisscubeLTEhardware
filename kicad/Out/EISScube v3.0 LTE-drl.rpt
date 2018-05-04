@@ -1,5 +1,5 @@
 Drill report for /Users/yuriy/Projects/eisscubeLTEhardware/kicad/EISScube v3.0 LTE.kicad_pcb
-Created on Wednesday, April 25, 2018 'PMt' 02:04:26 PM
+Created on Wednesday, May 02, 2018 'PMt' 05:51:50 PM
 
 Copper Layer Stackup:
     =============================================================
@@ -21,13 +21,14 @@ Drill file 'EISScube v3.0 LTE.drl' contains
     T7  1.10mm  0.043"  (2 holes)
     T8  1.30mm  0.051"  (3 holes)
     T9  1.40mm  0.055"  (8 holes)
-    T10  2.70mm  0.106"  (4 holes)
+    T10  2.70mm  0.106"  (5 holes)
 
-    Total plated holes count 225
+    Total plated holes count 226
 
 
 Drill file 'EISScube v3.0 LTE-NPTH.drl' contains
     unplated through holes:
     =============================================================
+    T1  6.00mm  0.236"  (4 holes)
 
-    Total unplated holes count 0
+    Total unplated holes count 4
