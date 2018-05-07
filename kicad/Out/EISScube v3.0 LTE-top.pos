@@ -1,4 +1,4 @@
-### Module positions - created on Wednesday, May 02, 2018 'PMt' 05:52:06 PM ###
+### Module positions - created on Friday, May 04, 2018 'PMt' 08:02:14 PM ###
 ### Printed by Pcbnew version kicad 4.0.7
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -21,13 +21,13 @@ C24       470J               C_0603                                   -1.9520   
 C25       470J               C_0603                                   -1.9520    33.7820  180.0000  top
 C28       470uF 35V          CP_Elec_10x10.5                          18.3040     5.5880  180.0000  top
 C29       105K               C_1206                                   25.2260    13.2080  270.0000  top
-C30       330uF 16V          CP_Elec_10x10.5                          57.9280    14.9860    0.0000  top
+C30       330uF 16V          CP_Elec_10x10.5                          56.0000    15.0000  270.0000  top
 C31       104K               C_0603                                   84.7890    29.8450  180.0000  top
 C32       106K 16V           CP_Tantalum_Case-B_EIA-3528-21_Reflow    41.4820    29.2100  180.0000  top
 C33       105K               C_1206                                   45.3160    24.5110  180.0000  top
 C34       106K 6V3           CP_Tantalum_Case-A_EIA-3216-18_Reflow    53.2930    24.5110    0.0000  top
-C35       106K 16V           CP_Tantalum_Case-B_EIA-3528-21_Reflow    78.6140     5.3660  270.0000  top
-C36       105K               C_1206                                   61.0400    23.2410   90.0000  top
+C35       106K 16V           CP_Tantalum_Case-B_EIA-3528-21_Reflow    77.0900     4.9850  270.0000  top
+C36       105K               C_1206                                   61.9770    24.4400   90.0000  top
 C37       106K 6V3           CP_Tantalum_Case-A_EIA-3216-18_Reflow    67.5805    29.3370  270.0000  top
 D1        blue               LED_0603                                 73.0670    48.3870    0.0000  top
 D2        blue               LED_0603                                 73.0670    46.6090    0.0000  top
@@ -43,12 +43,12 @@ D17       red                LED_0603                                 66.3740   
 J4        SIM_Card_w_det_sw  SIM_Card_Hirose_KP10S-SF-PEJ-812         32.3225    45.5615  180.0000  top
 L1        68nH               L_0603                                    8.6250     4.6040  180.0000  top
 L2        39nH               L_0603                                    8.0175     9.0170    0.0000  top
-L3        150uH              L_10.4x10.4_H4.8                         44.7840    16.5100  270.0000  top
+L3        150uH              L_10.4x10.4_H4.8                         44.1970    16.5100  270.0000  top
 Q4        GSM3612PJZF        SOT-23                                   22.2440    28.7180  270.0000  top
 Q5        GSM3612PJZF        SOT-23                                   85.9320    27.4160  270.0000  top
 R1        100K               R_0603                                   60.9130    44.0690    0.0000  top
 R2        1K                 R_1206                                   52.1500    47.7520   90.0000  top
-R3        510R               R_0603                                   49.1020    46.1010   90.0000  top
+R3        510R               R_0603                                   49.1020    46.2600   90.0000  top
 R4        1K                 R_0603                                   69.1680    51.4350    0.0000  top
 R12       10K                R_0603                                   13.1610    12.6365    0.0000  top
 R16       470K               R_0603                                    1.3500    27.1780  270.0000  top
