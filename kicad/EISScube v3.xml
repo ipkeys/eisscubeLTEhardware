@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/yuriy/Dropbox/EISScube v3.0 LTE/EISScube v3.0 LTE.sch</source>
-    <date>Wednesday, April 18, 2018 'PMt' 01:15:05 PM</date>
+    <source>/Users/yuriy/Projects/eisscubeLTEhardware/kicad/EISScube v3.0 LTE.sch</source>
+    <date>Wednesday, May 02, 2018 'PMt' 05:28:56 PM</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -58,6 +58,48 @@
     </sheet>
   </design>
   <components>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <libsource lib="EISScube_LTE" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0BAFC</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <libsource lib="EISScube_LTE" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0BB64</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <libsource lib="EISScube_LTE" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0BBCA</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</footprint>
+      <libsource lib="EISScube_LTE" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0BCF1</tstamp>
+    </comp>
+    <comp ref="FID5">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</footprint>
+      <libsource lib="EISScube_LTE" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0BD24</tstamp>
+    </comp>
+    <comp ref="FID6">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</footprint>
+      <libsource lib="EISScube_LTE" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0BD54</tstamp>
+    </comp>
     <comp ref="U1">
       <value>STM32L051C8Tx</value>
       <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
@@ -490,7 +532,7 @@
     </comp>
     <comp ref="D6">
       <value>VBUS05B1-SD0</value>
-      <footprint>Diodes_SMD:D_0603</footprint>
+      <footprint>Inductors_SMD:L_0201</footprint>
       <libsource lib="EISScube_LTE" part="VBUS05B1-SD0"/>
       <sheetpath names="/EISScube-cl/" tstamps="/5AAC5F04/"/>
       <tstamp>5AAD6AC6</tstamp>
@@ -588,42 +630,42 @@
     </comp>
     <comp ref="D7">
       <value>VBUS05B1-SD0</value>
-      <footprint>Diodes_SMD:D_0603</footprint>
+      <footprint>Inductors_SMD:L_0201</footprint>
       <libsource lib="EISScube_LTE" part="VBUS05B1-SD0"/>
       <sheetpath names="/EISScube-cl/" tstamps="/5AAC5F04/"/>
       <tstamp>5AAEE3B3</tstamp>
     </comp>
     <comp ref="D8">
       <value>VBUS05B1-SD0</value>
-      <footprint>Diodes_SMD:D_0603</footprint>
+      <footprint>Inductors_SMD:L_0201</footprint>
       <libsource lib="EISScube_LTE" part="VBUS05B1-SD0"/>
       <sheetpath names="/EISScube-cl/" tstamps="/5AAC5F04/"/>
       <tstamp>5AAEE729</tstamp>
     </comp>
     <comp ref="D9">
       <value>VBUS05B1-SD0</value>
-      <footprint>Diodes_SMD:D_0603</footprint>
+      <footprint>Inductors_SMD:L_0201</footprint>
       <libsource lib="EISScube_LTE" part="VBUS05B1-SD0"/>
       <sheetpath names="/EISScube-cl/" tstamps="/5AAC5F04/"/>
       <tstamp>5AAEE7BC</tstamp>
     </comp>
     <comp ref="D10">
       <value>VBUS05B1-SD0</value>
-      <footprint>Diodes_SMD:D_0603</footprint>
+      <footprint>Inductors_SMD:L_0201</footprint>
       <libsource lib="EISScube_LTE" part="VBUS05B1-SD0"/>
       <sheetpath names="/EISScube-cl/" tstamps="/5AAC5F04/"/>
       <tstamp>5AAEE852</tstamp>
     </comp>
     <comp ref="D11">
       <value>VBUS05B1-SD0</value>
-      <footprint>Diodes_SMD:D_0603</footprint>
+      <footprint>Inductors_SMD:L_0201</footprint>
       <libsource lib="EISScube_LTE" part="VBUS05B1-SD0"/>
       <sheetpath names="/EISScube-cl/" tstamps="/5AAC5F04/"/>
       <tstamp>5AAF1141</tstamp>
     </comp>
     <comp ref="D12">
       <value>VBUS05B1-SD0</value>
-      <footprint>Diodes_SMD:D_0603</footprint>
+      <footprint>Inductors_SMD:L_0201</footprint>
       <libsource lib="EISScube_LTE" part="VBUS05B1-SD0"/>
       <sheetpath names="/EISScube-cl/" tstamps="/5AAC5F04/"/>
       <tstamp>5AAF1203</tstamp>
@@ -867,14 +909,14 @@
       <tstamp>5AB4BD57</tstamp>
     </comp>
     <comp ref="C28">
-      <value>470uF 35V</value>
+      <value>220uF 35V</value>
       <footprint>Capacitors_SMD:CP_Elec_10x10.5</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/EISScube-pw/" tstamps="/5AAFEC8A/"/>
       <tstamp>5AB6777B</tstamp>
     </comp>
     <comp ref="C30">
-      <value>330uF 16V</value>
+      <value>680uF 16V</value>
       <footprint>Capacitors_SMD:CP_Elec_10x10.5</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/EISScube-pw/" tstamps="/5AAFEC8A/"/>
@@ -1126,6 +1168,13 @@
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="EISScube_LTE" part="Fiducial">
+      <description>Fiducial for PnP machine</description>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
     </libpart>
     <libpart lib="device" part="L">
       <description>Inductor</description>
@@ -1641,38 +1690,38 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="EISScube_LTE">
-      <uri>/Users/yuriy/Dropbox/EISScube v3.0 LTE/library/EISScube_LTE.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/Library/Application Support/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="Switch">
-      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
-    </library>
-    <library logical="opto">
-      <uri>/Library/Application Support/kicad/library/opto.lib</uri>
-    </library>
-    <library logical="Connector_Specialized">
-      <uri>/Library/Application Support/kicad/library/Connector_Specialized.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="diode">
-      <uri>/Library/Application Support/kicad/library/diode.lib</uri>
-    </library>
-    <library logical="Diode_Bridge">
-      <uri>/Library/Application Support/kicad/library/Diode_Bridge.lib</uri>
+    <library logical="Relay">
+      <uri>/Library/Application Support/kicad/library/Relay.lib</uri>
     </library>
     <library logical="device">
       <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
+    <library logical="opto">
+      <uri>/Library/Application Support/kicad/library/opto.lib</uri>
+    </library>
     <library logical="MCU_ST_STM32">
       <uri>/Library/Application Support/kicad/library/MCU_ST_STM32.lib</uri>
     </library>
-    <library logical="Relay">
-      <uri>/Library/Application Support/kicad/library/Relay.lib</uri>
+    <library logical="EISScube_LTE">
+      <uri>/Users/yuriy/Projects/eisscubeLTEhardware/kicad/library/EISScube_LTE.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/Library/Application Support/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="Connector_Specialized">
+      <uri>/Library/Application Support/kicad/library/Connector_Specialized.lib</uri>
+    </library>
+    <library logical="diode">
+      <uri>/Library/Application Support/kicad/library/diode.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Diode_Bridge">
+      <uri>/Library/Application Support/kicad/library/Diode_Bridge.lib</uri>
     </library>
   </libraries>
   <nets>
