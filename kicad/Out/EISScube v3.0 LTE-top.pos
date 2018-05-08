@@ -1,11 +1,10 @@
-### Module positions - created on Friday, May 04, 2018 'PMt' 08:02:14 PM ###
+### Module positions - created on Monday, May 07, 2018 'PMt' 12:35:34 PM ###
 ### Printed by Pcbnew version kicad 4.0.7
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                Package                                     PosX       PosY       Rot  Side
-AE1       Antenna            Molex_SMA_Jack_Edge_Mount                 6.6050     2.5140   90.0000  top
+AE1       Antenna_Shield     Molex_SMA_Jack_Edge_Mount                 6.6050     2.5140   90.0000  top
 C1        104K               C_0603                                   64.3300    44.0690  180.0000  top
-C6        104K               C_0603                                   73.2800    52.0900   90.0000  top
 C8        104K               C_0603                                   44.0220    42.7990  270.0000  top
 C12       330J               C_0603                                    6.9860     6.6360   90.0000  top
 C13       270J               C_0603                                   11.1925     7.7470   90.0000  top
@@ -19,48 +18,35 @@ C22       470J               C_0603                                   -1.9520   
 C23       470J               C_0603                                   -1.9520    30.7340  180.0000  top
 C24       470J               C_0603                                   -1.9520    32.2580  180.0000  top
 C25       470J               C_0603                                   -1.9520    33.7820  180.0000  top
-C28       470uF 35V          CP_Elec_10x10.5                          18.3040     5.5880  180.0000  top
+C28       220uF 35V          CP_Elec_10x10.5                          18.3040     5.5880  180.0000  top
 C29       105K               C_1206                                   25.2260    13.2080  270.0000  top
-C30       330uF 16V          CP_Elec_10x10.5                          56.0000    15.0000  270.0000  top
-C31       104K               C_0603                                   84.7890    29.8450  180.0000  top
+C30       680uF 16V          CP_Elec_10x10.5                          56.0000    15.0000  270.0000  top
 C32       106K 16V           CP_Tantalum_Case-B_EIA-3528-21_Reflow    41.4820    29.2100  180.0000  top
 C33       105K               C_1206                                   45.3160    24.5110  180.0000  top
 C34       106K 6V3           CP_Tantalum_Case-A_EIA-3216-18_Reflow    53.2930    24.5110    0.0000  top
-C35       106K 16V           CP_Tantalum_Case-B_EIA-3528-21_Reflow    77.0900     4.9850  270.0000  top
 C36       105K               C_1206                                   61.9770    24.4400   90.0000  top
-C37       106K 6V3           CP_Tantalum_Case-A_EIA-3216-18_Reflow    67.5805    29.3370  270.0000  top
-D1        blue               LED_0603                                 73.0670    48.3870    0.0000  top
-D2        blue               LED_0603                                 73.0670    46.6090    0.0000  top
-D3        blue               LED_0603                                 73.0670    44.8310    0.0000  top
-D4        blue               LED_0603                                 73.0670    43.0530    0.0000  top
-D5        blue               LED_0603                                 73.0670    41.2750    0.0000  top
+C37       106K 6V3           CP_Tantalum_Case-A_EIA-3216-18_Reflow    61.9770    29.3690  270.0000  top
 D6        VBUS05B1-SD0       L_0201                                   10.3670    12.6365    0.0000  top
 D13       red                LED_0603                                 21.9240    26.1620    0.0000  top
 D14       MBL104S            Diode_Bridge_MBLS                        27.5120     5.0800  270.0000  top
 D15       B120-E3            D_SMA                                    22.1780    14.4780  270.0000  top
-D16       red                LED_0603                                 85.9320    17.6530  270.0000  top
-D17       red                LED_0603                                 66.3740    51.4350    0.0000  top
 J4        SIM_Card_w_det_sw  SIM_Card_Hirose_KP10S-SF-PEJ-812         32.3225    45.5615  180.0000  top
 L1        68nH               L_0603                                    8.6250     4.6040  180.0000  top
 L2        39nH               L_0603                                    8.0175     9.0170    0.0000  top
 L3        150uH              L_10.4x10.4_H4.8                         44.1970    16.5100  270.0000  top
 Q4        GSM3612PJZF        SOT-23                                   22.2440    28.7180  270.0000  top
-Q5        GSM3612PJZF        SOT-23                                   85.9320    27.4160  270.0000  top
 R1        100K               R_0603                                   60.9130    44.0690    0.0000  top
 R2        1K                 R_1206                                   52.1500    47.7520   90.0000  top
 R3        510R               R_0603                                   49.1020    46.2600   90.0000  top
-R4        1K                 R_0603                                   69.1680    51.4350    0.0000  top
 R12       10K                R_0603                                   13.1610    12.6365    0.0000  top
 R16       470K               R_0603                                    1.3500    27.1780  270.0000  top
 R24       0R                 R_0603                                    5.2200    44.8630    0.0000  top
 R25       1K                 R_0603                                   23.4480    24.4475    0.0000  top
 R27       1K                 R_0603                                   23.1940    31.7500  270.0000  top
-R28       1K                 R_0603                                   81.1540     7.6520  270.0000  top
-R29       1K                 R_0603                                   86.9480    30.4800   90.0000  top
 R30       30K                R_0603                                   57.2300    27.4320  270.0000  top
 R31       15K                R_0603                                   57.2300    30.4800  270.0000  top
 SW1       Reset              SW_SPST_PTS645                           76.9200    36.3900  180.0000  top
-U2        SN74LV1T34DBVR     SOT-23-5                                 78.3600    45.9400  180.0000  top
+U2        SN74LV1T34DBVR     SOT-23-5                                 78.3600    46.2600  180.0000  top
 U4        LM2576HVS-12       TO-263-5_TabPin3                         32.1030    18.8620   90.0000  top
 U5        MIC29302WU-TR      TO-263-5_TabPin6                         50.1960    35.7470   90.0000  top
 U9        LTV-357T           SO-4_4.4x3.6mm_Pitch2.54mm               57.9920    51.3080    0.0000  top

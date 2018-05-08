@@ -871,12 +871,12 @@ $EndComp
 $Comp
 L R R28
 U 1 1 5AB418B7
-P 6750 1300
-F 0 "R28" H 6900 1300 50  0000 C CNN
-F 1 "1K" V 6750 1300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6680 1300 50  0001 C CNN
-F 3 "" H 6750 1300 50  0001 C CNN
-	1    6750 1300
+P 6400 1600
+F 0 "R28" H 6550 1600 50  0000 C CNN
+F 1 "1K" V 6400 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6330 1600 50  0001 C CNN
+F 3 "" H 6400 1600 50  0001 C CNN
+	1    6400 1600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -957,16 +957,9 @@ Wire Wire Line
 Wire Wire Line
 	7050 1550 7650 1550
 Wire Wire Line
-	6750 1450 6750 1650
-Wire Wire Line
 	7650 1550 7650 1800
 Wire Wire Line
-	6750 1050 6750 1150
-Wire Wire Line
-	6400 1800 6400 1550
-Wire Wire Line
-	6400 1550 6750 1550
-Connection ~ 6750 1550
+	6400 1800 6400 1750
 Wire Wire Line
 	7550 1650 7550 2000
 Wire Wire Line
@@ -1163,7 +1156,7 @@ Connection ~ 2650 4900
 Wire Wire Line
 	3600 6250 3600 5900
 Wire Wire Line
-	1900 2750 1250 2750
+	1250 2750 1900 2750
 $Comp
 L PWR_FLAG #FLG043
 U 1 1 5AD15A50
@@ -1200,4 +1193,11 @@ Text Notes 5700 950  0    60   ~ 0
 Relay
 Text Notes 9400 950  0    60   ~ 0
 Connector
+Wire Wire Line
+	6750 1050 6750 1650
+Wire Wire Line
+	6400 1450 6400 1350
+Wire Wire Line
+	6400 1350 6750 1350
+Connection ~ 6750 1350
 $EndSCHEMATC
