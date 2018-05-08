@@ -1,4 +1,4 @@
-update=Friday, May 04, 2018 'PMt' 08:18:13 PM
+update=Tuesday, May 08, 2018 'AMt' 11:30:15 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -281,8 +281,6 @@ LibName251=digikey-symbols/dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controller
 LibName252=digikey-symbols/dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
 LibName253=digikey-symbols/dk_PMIC-Voltage-Regulators-Linear
 LibName254=digikey-symbols/dk_PMIC-Voltage-Regulators-Special-Purpose
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -293,3 +291,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1

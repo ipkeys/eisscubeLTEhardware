@@ -1,4 +1,4 @@
-### Module positions - created on Friday, May 04, 2018 'PMt' 08:02:14 PM ###
+### Module positions - created on Monday, May 07, 2018 'PMt' 12:35:34 PM ###
 ### Printed by Pcbnew version kicad 4.0.7
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -7,6 +7,7 @@ C2        220J           C_0603                                   61.1670    50.
 C3        220J           C_0603                                   61.9290    53.0860    0.0000  bottom
 C4        220J           C_0603                                   54.0550    50.9150   90.0000  bottom
 C5        220J           C_0603                                   55.4520    50.9150   90.0000  bottom
+C6        104K           C_0603                                   73.7880    48.8000    0.0000  bottom
 C7        104K           C_0603                                   55.5790    46.1010  180.0000  bottom
 C9        104K           C_0603                                   63.5800    49.0220   90.0000  bottom
 C10       104K           C_0603                                   57.8650    34.9250  270.0000  bottom
@@ -15,26 +16,37 @@ C20       104K           C_0603                                   23.4480    21.
 C21       104K           C_0603                                   29.7980    50.9150   90.0000  bottom
 C26       470J           C_0603                                   26.2420    32.3850    0.0000  bottom
 C27       470J           C_0603                                   26.2420    40.8940    0.0000  bottom
+C31       104K           C_0603                                   86.4880    30.5120    0.0000  bottom
+C35       106K 16V       CP_Tantalum_Case-B_EIA-3528-21_Reflow    79.5000     3.0000  270.0000  bottom
 C38       106K 6V3       CP_Tantalum_Case-A_EIA-3216-18_Reflow    40.6980    12.1920    0.0000  bottom
 C39       105K           C_0603                                   40.0850    13.9700    0.0000  bottom
 C40       106K 6V3       CP_Tantalum_Case-A_EIA-3216-18_Reflow    48.5940    24.6380  180.0000  bottom
 C41       106K 6V3       CP_Tantalum_Case-A_EIA-3216-18_Reflow    46.3080    12.1920  180.0000  bottom
 C42       105K           C_0603                                   46.9430    13.9700  180.0000  bottom
 C43       106K 6V3       CP_Tantalum_Case-A_EIA-3216-18_Reflow    43.0060    24.6380    0.0000  bottom
+D1        blue           LED_0603                                 72.2640    47.2760   -0.0000  bottom
+D2        blue           LED_0603                                 72.2640    45.7520   -0.0000  bottom
+D3        blue           LED_0603                                 72.2640    44.2280   -0.0000  bottom
+D4        blue           LED_0603                                 72.2640    42.7040   -0.0000  bottom
+D5        blue           LED_0603                                 72.2640    41.1800   -0.0000  bottom
 D7        VBUS05B1-SD0   L_0201                                   28.2585    50.3240  270.0000  bottom
 D8        VBUS05B1-SD0   L_0201                                   32.3225    50.3240  270.0000  bottom
 D9        VBUS05B1-SD0   L_0201                                   34.8625    45.6885   90.0000  bottom
 D10       VBUS05B1-SD0   L_0201                                   34.8625    50.3450  270.0000  bottom
 D11       VBUS05B1-SD0   L_0201                                   38.6090    35.9730  180.0000  bottom
 D12       VBUS05B1-SD0   L_0201                                   34.7780    35.9730    0.0000  bottom
+D16       red            LED_0603                                 72.2640    38.1320  180.0000  bottom
+D17       red            LED_0603                                 72.2640    50.3240   -0.0000  bottom
 Q2        GSM3612PJZF    SOT-23                                   26.5120    34.8640  180.0000  bottom
 Q3        GSM3612PJZF    SOT-23                                   26.5120    38.4150  180.0000  bottom
+Q5        GSM3612PJZF    SOT-23                                   82.1700    30.7660  180.0000  bottom
+R4        1K             R_0603                                   69.4700    50.3240   -0.0000  bottom
 R6        240R           R_0603                                   61.1670    48.6410  180.0000  bottom
-R7        1K             R_0603                                   69.3070    48.3870  180.0000  bottom
-R8        1K             R_0603                                   69.3070    46.6090  180.0000  bottom
-R9        1K             R_0603                                   69.3070    44.8310  180.0000  bottom
-R10       1K             R_0603                                   69.3070    43.0530  180.0000  bottom
-R11       1K             R_0603                                   69.3070    41.2750  180.0000  bottom
+R7        1K             R_0603                                   69.4700    47.2760  180.0000  bottom
+R8        1K             R_0603                                   69.4700    45.7520  180.0000  bottom
+R9        1K             R_0603                                   69.4700    44.2280  180.0000  bottom
+R10       1K             R_0603                                   69.4700    42.7040  180.0000  bottom
+R11       1K             R_0603                                   69.4700    41.1800  180.0000  bottom
 R13       10K            R_0603                                   21.7850    19.3040    0.0000  bottom
 R14       10K            R_0603                                   21.6700    21.5780   90.0000  bottom
 R15       0R             R_0603                                   22.8250    25.9080    0.0000  bottom
@@ -46,8 +58,10 @@ R21       1K             R_0603                                   29.5440    35.
 R22       1K             R_0603                                   29.5440    39.3700  180.0000  bottom
 R23       0R             R_0603                                   10.9230    43.3390    0.0000  bottom
 R26       0R             R_0603                                    5.2080    41.9420    0.0000  bottom
+R28       1K             R_0603                                   70.7400    35.3380  180.0000  bottom
+R29       1K             R_0603                                   85.7260    32.5440   90.0000  bottom
 U1        STM32L051C8Tx  LQFP-48_7x7mm_Pitch0.5mm                 62.2780    41.6440  270.0000  bottom
-U6        L7805          TO-252-2                                 76.1620    29.7180    0.0000  bottom
+U6        L7805          TO-252-2                                 71.7910    30.5130    0.0000  bottom
 U7        LM1117-3.3     SOT-223-3_TabPin2                        49.9910    19.0750   90.0000  bottom
 U8        LM1117-1.8     SOT-223-3_TabPin2                        41.6090    19.0500   90.0000  bottom
 Y1        12MHz          Crystal_SMD_3225-4pin_3.2x2.5mm          58.3300    51.1810    0.0000  bottom
