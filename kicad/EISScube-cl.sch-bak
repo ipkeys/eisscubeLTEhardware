@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:EISScube v3.0 LTE-cache
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -1108,7 +1109,7 @@ Wire Wire Line
 Connection ~ 2400 5850
 Connection ~ 2100 3300
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP1
+L Connector_Specialized:Test_Point TP1
 U 1 1 5ABABAEF
 P 2300 4000
 F 0 "TP1" V 2300 4250 50  0000 C CNN
@@ -1119,7 +1120,7 @@ F 3 "" H 2500 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP2
+L Connector_Specialized:Test_Point TP2
 U 1 1 5ABABC18
 P 2300 5250
 F 0 "TP2" V 2300 5500 50  0000 C CNN
@@ -1130,7 +1131,7 @@ F 3 "" H 2500 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP7
+L Connector_Specialized:Test_Point TP7
 U 1 1 5ABABD38
 P 4300 5450
 F 0 "TP7" V 4300 5700 50  0000 C CNN
@@ -1141,7 +1142,7 @@ F 3 "" H 4500 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP6
+L Connector_Specialized:Test_Point TP6
 U 1 1 5ABABE66
 P 4300 5250
 F 0 "TP6" V 4300 5500 50  0000 C CNN
@@ -1152,7 +1153,7 @@ F 3 "" H 4500 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP8
+L Connector_Specialized:Test_Point TP8
 U 1 1 5ABAC05A
 P 4300 5650
 F 0 "TP8" V 4300 5900 50  0000 C CNN
@@ -1163,7 +1164,7 @@ F 3 "" H 4500 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP3
+L Connector_Specialized:Test_Point TP3
 U 1 1 5ABAC1F1
 P 2700 2800
 F 0 "TP3" H 2700 3000 50  0000 C CNN
@@ -1185,7 +1186,7 @@ Wire Wire Line
 	2700 2800 2700 2900
 Connection ~ 2700 2900
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP4
+L Connector_Specialized:Test_Point TP4
 U 1 1 5ABAE5E2
 P 2800 3400
 F 0 "TP4" H 2800 3600 50  0000 C CNN
@@ -1196,7 +1197,7 @@ F 3 "" H 3000 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EISScube-v3.0-LTE-rescue:Test_Point-Connector_Specialized TP5
+L Connector_Specialized:Test_Point TP5
 U 1 1 5ABAE6A5
 P 2950 3400
 F 0 "TP5" H 2950 3600 50  0000 C CNN

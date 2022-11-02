@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:EISScube v3.0 LTE-cache
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -13,6 +14,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L regul:L7805 U6
+U 1 1 5AAFF109
+P 2200 4150
+F 0 "U6" H 2050 4275 50  0000 C CNN
+F 1 "L7805" H 2200 4275 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 2225 4000 50  0001 L CIN
+F 3 "" H 2200 4100 50  0001 C CNN
+	1    2200 4150
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:C C36
 U 1 1 5AAFF236
@@ -421,11 +433,9 @@ Wire Wire Line
 	1500 3550 1800 3550
 Connection ~ 4750 4150
 $Comp
-L EISScube-v3.0-LTE-rescue:LM1117-3.3-regul U7
+L regul:LM1117-3.3 U7
 U 1 1 5AB38EBF
 P 4300 4150
-AR Path="/5AB38EBF" Ref="U7"  Part="1" 
-AR Path="/5AAFEC8A/5AB38EBF" Ref="U7"  Part="1" 
 F 0 "U7" H 4050 4300 50  0000 C CNN
 F 1 "LM1117-3.3" H 4150 4300 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4300 4150 50  0001 C CNN
@@ -434,11 +444,9 @@ F 3 "" H 4300 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EISScube-v3.0-LTE-rescue:LM1117-1.8-regul U8
+L regul:LM1117-1.8 U8
 U 1 1 5AB39024
 P 4300 5500
-AR Path="/5AB39024" Ref="U8"  Part="1" 
-AR Path="/5AAFEC8A/5AB39024" Ref="U8"  Part="1" 
 F 0 "U8" H 4050 5650 50  0000 C CNN
 F 1 "LM1117-1.8" H 4150 5650 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4300 5500 50  0001 C CNN
@@ -483,6 +491,17 @@ F 1 "+12V" H 4100 1540 50  0000 C CNN
 F 2 "" H 4100 1400 50  0001 C CNN
 F 3 "" H 4100 1400 50  0001 C CNN
 	1    4100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_Bridge:MBL104S D14
+U 1 1 5AB3C503
+P 1650 1500
+F 0 "D14" H 1400 1800 50  0000 L CNN
+F 1 "MBL104S" H 1250 1700 50  0000 L CNN
+F 2 "Diodes_SMD:Diode_Bridge_MBLS" H 1800 1625 50  0001 L CNN
+F 3 "" H 1650 1500 50  0001 C CNN
+	1    1650 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -534,11 +553,9 @@ Text GLabel 4550 2300 2    50   Input ~ 0
 GND
 Connection ~ 4100 2300
 $Comp
-L EISScube-v3.0-LTE-rescue:Screw_Terminal_01x08-conn J6
+L conn:Screw_Terminal_01x08 J6
 U 1 1 5AB3DD8F
 P 9650 1600
-AR Path="/5AB3DD8F" Ref="J6"  Part="1" 
-AR Path="/5AAFEC8A/5AB3DD8F" Ref="J6"  Part="1" 
 F 0 "J6" H 9650 2000 50  0000 C CNN
 F 1 "Screw_Terminal_01x08" H 9650 1100 50  0000 C CNN
 F 2 "Connectors_Phoenix:PhoenixContact_MSTBA-G_08x5.08mm_Angled" H 9650 1600 50  0001 C CNN
@@ -657,6 +674,19 @@ F 3 "" H 6750 1050 50  0001 C CNN
 $EndComp
 Text GLabel 5850 2550 0    50   Input ~ 0
 RELAY
+$Comp
+L EISScube-v3.0-LTE-rescue:SANYOU_SRD_Form_C K1
+U 1 1 5AB418DB
+P 6950 1950
+AR Path="/5AB418DB" Ref="K1"  Part="1" 
+AR Path="/5AAFEC8A/5AB418DB" Ref="K1"  Part="1" 
+F 0 "K1" H 6850 2200 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 7200 1700 50  0001 L CNN
+F 2 "Relays_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 7400 1900 50  0001 L CNN
+F 3 "" H 6950 1950 50  0001 C CNN
+	1    6950 1950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6400 2100 6400 2300
 Wire Wire Line
@@ -681,9 +711,9 @@ Wire Wire Line
 Wire Wire Line
 	7650 2300 7650 1900
 Text Label 7800 1800 0    60   ~ 0
-NO
-Text Label 7800 2000 0    60   ~ 0
 NC
+Text Label 7800 2000 0    60   ~ 0
+NO
 Text Label 7800 1900 0    60   ~ 0
 COM
 $Comp
@@ -1078,37 +1108,4 @@ Wire Wire Line
 	3700 1500 4100 1500
 Wire Wire Line
 	6750 1350 6750 1650
-$Comp
-L Relay:SANYOU_SRD_Form_C K1
-U 1 1 608D68F9
-P 6950 1950
-F 0 "K1" H 7380 1950 50  0000 L CNN
-F 1 "SANYOU_SRD_Form_C" H 7380 1905 50  0001 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 7400 1900 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6950 1950 50  0001 C CNN
-	1    6950 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode_Bridge:MBL104S D14
-U 1 1 608F5375
-P 1650 1500
-F 0 "D14" H 1994 1546 50  0000 L CNN
-F 1 "MBL104S" H 1994 1455 50  0000 L CNN
-F 2 "Diode_SMD:Diode_Bridge_Vishay_MBLS" H 1800 1625 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/89959/mbl104s.pdf" H 1650 1500 50  0001 C CNN
-	1    1650 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:L7805 U6
-U 1 1 609195C0
-P 2200 4150
-F 0 "U6" H 2200 4392 50  0000 C CNN
-F 1 "L7805" H 2200 4301 50  0000 C CNN
-F 2 "" H 2225 4000 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2200 4100 50  0001 C CNN
-	1    2200 4150
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

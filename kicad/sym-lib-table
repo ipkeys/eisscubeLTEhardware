@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "EISScube-v3.0-LTE-rescue")(type "Legacy")(uri "${KIPRJMOD}/EISScube v3.0 LTE-rescue.lib")(options "")(descr ""))
+  (lib (name "EISScube_LTE")(type "Legacy")(uri "${KIPRJMOD}/library/EISScube_LTE.lib")(options "")(descr ""))
+)

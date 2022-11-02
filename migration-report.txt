@@ -1,0 +1,287 @@
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/sym-lib-table” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/sym-lib-table-2019-07-29-21-48-44”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube v3.0 LTE.sch” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube v3.0 LTE-2019-07-29-21-48-44.sch”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube-mc.sch” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube-mc-2019-07-29-21-48-44.sch”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube-cl.sch” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube-cl-2019-07-29-21-48-44.sch”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube-pw.sch” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube-pw-2019-07-29-21-48-44.sch”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube v3.0 LTE.pro” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube v3.0 LTE-2019-07-29-21-48-44.pro”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube v3.0 LTE-cache.lib” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube v3.0 LTE-cache-2019-07-29-21-48-44.lib”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube v3.0 LTE-rescue.lib” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube v3.0 LTE-rescue-2019-07-29-21-48-44.lib”.
+Info: Backing up file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/EISScube v3.0 LTE-rescue.dcm” to file “/Users/Yuriy/Projects/eisscubeLTEhardware/kicad/rescue-backup/EISScube v3.0 LTE-rescue-2019-07-29-21-48-44.dcm”.
+Info: Adding library “EISScube-v3.0-LTE-rescue”, file “${KIPRJMOD}/EISScube v3.0 LTE-rescue.lib” to project symbol library table.
+Info: Adding library “transistors”, file “${KICAD_SYMBOL_DIR}/transistors.lib” to project symbol library table.
+Info: Adding library “conn”, file “${KICAD_SYMBOL_DIR}/conn.lib” to project symbol library table.
+Info: Adding library “linear”, file “${KICAD_SYMBOL_DIR}/linear.lib” to project symbol library table.
+Info: Adding library “regul”, file “${KICAD_SYMBOL_DIR}/regul.lib” to project symbol library table.
+Info: Adding library “cmos4000”, file “${KICAD_SYMBOL_DIR}/cmos4000.lib” to project symbol library table.
+Info: Adding library “adc-dac”, file “${KICAD_SYMBOL_DIR}/adc-dac.lib” to project symbol library table.
+Info: Adding library “memory”, file “${KICAD_SYMBOL_DIR}/memory.lib” to project symbol library table.
+Info: Adding library “xilinx”, file “${KICAD_SYMBOL_DIR}/xilinx.lib” to project symbol library table.
+Info: Adding library “microcontrollers”, file “${KICAD_SYMBOL_DIR}/microcontrollers.lib” to project symbol library table.
+Info: Adding library “dsp”, file “${KICAD_SYMBOL_DIR}/dsp.lib” to project symbol library table.
+Info: Adding library “microchip”, file “${KICAD_SYMBOL_DIR}/microchip.lib” to project symbol library table.
+Info: Adding library “analog_switches”, file “${KICAD_SYMBOL_DIR}/analog_switches.lib” to project symbol library table.
+Info: Adding library “motorola”, file “${KICAD_SYMBOL_DIR}/motorola.lib” to project symbol library table.
+Info: Adding library “texas”, file “${KICAD_SYMBOL_DIR}/texas.lib” to project symbol library table.
+Info: Adding library “intel”, file “${KICAD_SYMBOL_DIR}/intel.lib” to project symbol library table.
+Info: Adding library “digital-audio”, file “${KICAD_SYMBOL_DIR}/digital-audio.lib” to project symbol library table.
+Info: Adding library “philips”, file “${KICAD_SYMBOL_DIR}/philips.lib” to project symbol library table.
+Info: Adding library “display”, file “${KICAD_SYMBOL_DIR}/display.lib” to project symbol library table.
+Info: Adding library “cypress”, file “${KICAD_SYMBOL_DIR}/cypress.lib” to project symbol library table.
+Info: Adding library “siliconi”, file “${KICAD_SYMBOL_DIR}/siliconi.lib” to project symbol library table.
+Info: Adding library “opto”, file “${KICAD_SYMBOL_DIR}/opto.lib” to project symbol library table.
+Info: Adding library “atmel”, file “${KICAD_SYMBOL_DIR}/atmel.lib” to project symbol library table.
+Info: Adding library “contrib”, file “${KICAD_SYMBOL_DIR}/contrib.lib” to project symbol library table.
+Info: Adding library “valves”, file “${KICAD_SYMBOL_DIR}/valves.lib” to project symbol library table.
+Info: Adding library “EISScube_LTE”, file “${KIPRJMOD}/library/EISScube_LTE.lib” to project symbol library table.
+Info: Adding library “MCU_ST_STM32”, file “${KICAD_SYMBOL_DIR}/MCU_ST_STM32.lib” to project symbol library table.
+Info: Adding library “ac-dc”, file “${KICAD_SYMBOL_DIR}/ac-dc.lib” to project symbol library table.
+Info: Adding library “actel”, file “${KICAD_SYMBOL_DIR}/actel.lib” to project symbol library table.
+Info: Adding library “allegro”, file “${KICAD_SYMBOL_DIR}/allegro.lib” to project symbol library table.
+Info: Adding library “Altera”, file “${KICAD_SYMBOL_DIR}/Altera.lib” to project symbol library table.
+Info: Adding library “analog_devices”, file “${KICAD_SYMBOL_DIR}/analog_devices.lib” to project symbol library table.
+Info: Adding library “bbd”, file “${KICAD_SYMBOL_DIR}/bbd.lib” to project symbol library table.
+Info: Adding library “bosch”, file “${KICAD_SYMBOL_DIR}/bosch.lib” to project symbol library table.
+Info: Adding library “brooktre”, file “${KICAD_SYMBOL_DIR}/brooktre.lib” to project symbol library table.
+Info: Adding library “cmos_ieee”, file “${KICAD_SYMBOL_DIR}/cmos_ieee.lib” to project symbol library table.
+Info: Adding library “Connector_Specialized”, file “${KICAD_SYMBOL_DIR}/Connector_Specialized.lib” to project symbol library table.
+Info: Adding library “dc-dc”, file “${KICAD_SYMBOL_DIR}/dc-dc.lib” to project symbol library table.
+Info: Adding library “elec-unifil”, file “${KICAD_SYMBOL_DIR}/elec-unifil.lib” to project symbol library table.
+Info: Adding library “ESD_Protection”, file “${KICAD_SYMBOL_DIR}/ESD_Protection.lib” to project symbol library table.
+Info: Adding library “FPGA_Actel”, file “${KICAD_SYMBOL_DIR}/FPGA_Actel.lib” to project symbol library table.
+Info: Adding library “ftdi”, file “${KICAD_SYMBOL_DIR}/ftdi.lib” to project symbol library table.
+Info: Adding library “gennum”, file “${KICAD_SYMBOL_DIR}/gennum.lib” to project symbol library table.
+Info: Adding library “graphic_symbols”, file “${KICAD_SYMBOL_DIR}/graphic_symbols.lib” to project symbol library table.
+Info: Adding library “hc11”, file “${KICAD_SYMBOL_DIR}/hc11.lib” to project symbol library table.
+Info: Adding library “infineon”, file “${KICAD_SYMBOL_DIR}/infineon.lib” to project symbol library table.
+Info: Adding library “intersil”, file “${KICAD_SYMBOL_DIR}/intersil.lib” to project symbol library table.
+Info: Adding library “ir”, file “${KICAD_SYMBOL_DIR}/ir.lib” to project symbol library table.
+Info: Adding library “Lattice”, file “${KICAD_SYMBOL_DIR}/Lattice.lib” to project symbol library table.
+Info: Adding library “leds”, file “${KICAD_SYMBOL_DIR}/leds.lib” to project symbol library table.
+Info: Adding library “LEM”, file “${KICAD_SYMBOL_DIR}/LEM.lib” to project symbol library table.
+Info: Adding library “Logic_74xgxx”, file “${KICAD_SYMBOL_DIR}/Logic_74xgxx.lib” to project symbol library table.
+Info: Adding library “Logic_74xx”, file “${KICAD_SYMBOL_DIR}/Logic_74xx.lib” to project symbol library table.
+Info: Adding library “Logic_CMOS_4000”, file “${KICAD_SYMBOL_DIR}/Logic_CMOS_4000.lib” to project symbol library table.
+Info: Adding library “Logic_CMOS_IEEE”, file “${KICAD_SYMBOL_DIR}/Logic_CMOS_IEEE.lib” to project symbol library table.
+Info: Adding library “Logic_TTL_IEEE”, file “${KICAD_SYMBOL_DIR}/Logic_TTL_IEEE.lib” to project symbol library table.
+Info: Adding library “maxim”, file “${KICAD_SYMBOL_DIR}/maxim.lib” to project symbol library table.
+Info: Adding library “MCU_Atmel_8051”, file “${KICAD_SYMBOL_DIR}/MCU_Atmel_8051.lib” to project symbol library table.
+Info: Adding library “MCU_Atmel_ATMEGA”, file “${KICAD_SYMBOL_DIR}/MCU_Atmel_ATMEGA.lib” to project symbol library table.
+Info: Adding library “MCU_Atmel_ATTINY”, file “${KICAD_SYMBOL_DIR}/MCU_Atmel_ATTINY.lib” to project symbol library table.
+Info: Adding library “MCU_Atmel_AVR”, file “${KICAD_SYMBOL_DIR}/MCU_Atmel_AVR.lib” to project symbol library table.
+Info: Adding library “MCU_Infineon”, file “${KICAD_SYMBOL_DIR}/MCU_Infineon.lib” to project symbol library table.
+Info: Adding library “microchip_dspic33dsc”, file “${KICAD_SYMBOL_DIR}/microchip_dspic33dsc.lib” to project symbol library table.
+Info: Adding library “microchip_pic10mcu”, file “${KICAD_SYMBOL_DIR}/microchip_pic10mcu.lib” to project symbol library table.
+Info: Adding library “microchip_pic12mcu”, file “${KICAD_SYMBOL_DIR}/microchip_pic12mcu.lib” to project symbol library table.
+Info: Adding library “microchip_pic16mcu”, file “${KICAD_SYMBOL_DIR}/microchip_pic16mcu.lib” to project symbol library table.
+Info: Adding library “microchip_pic18mcu”, file “${KICAD_SYMBOL_DIR}/microchip_pic18mcu.lib” to project symbol library table.
+Info: Adding library “microchip_pic24mcu”, file “${KICAD_SYMBOL_DIR}/microchip_pic24mcu.lib” to project symbol library table.
+Info: Adding library “microchip_pic32mcu”, file “${KICAD_SYMBOL_DIR}/microchip_pic32mcu.lib” to project symbol library table.
+Info: Adding library “modules”, file “${KICAD_SYMBOL_DIR}/modules.lib” to project symbol library table.
+Info: Adding library “motor_drivers”, file “${KICAD_SYMBOL_DIR}/motor_drivers.lib” to project symbol library table.
+Info: Adding library “motors”, file “${KICAD_SYMBOL_DIR}/motors.lib” to project symbol library table.
+Info: Adding library “msp430”, file “${KICAD_SYMBOL_DIR}/msp430.lib” to project symbol library table.
+Info: Adding library “nordicsemi”, file “${KICAD_SYMBOL_DIR}/nordicsemi.lib” to project symbol library table.
+Info: Adding library “nxp_armmcu”, file “${KICAD_SYMBOL_DIR}/nxp_armmcu.lib” to project symbol library table.
+Info: Adding library “nxp”, file “${KICAD_SYMBOL_DIR}/nxp.lib” to project symbol library table.
+Info: Adding library “onsemi”, file “${KICAD_SYMBOL_DIR}/onsemi.lib” to project symbol library table.
+Info: Adding library “Oscillators”, file “${KICAD_SYMBOL_DIR}/Oscillators.lib” to project symbol library table.
+Info: Adding library “powerint”, file “${KICAD_SYMBOL_DIR}/powerint.lib” to project symbol library table.
+Info: Adding library “references”, file “${KICAD_SYMBOL_DIR}/references.lib” to project symbol library table.
+Info: Adding library “relays”, file “${KICAD_SYMBOL_DIR}/relays.lib” to project symbol library table.
+Info: Adding library “rfcom”, file “${KICAD_SYMBOL_DIR}/rfcom.lib” to project symbol library table.
+Info: Adding library “RFSolutions”, file “${KICAD_SYMBOL_DIR}/RFSolutions.lib” to project symbol library table.
+Info: Adding library “sensors”, file “${KICAD_SYMBOL_DIR}/sensors.lib” to project symbol library table.
+Info: Adding library “silabs”, file “${KICAD_SYMBOL_DIR}/silabs.lib” to project symbol library table.
+Info: Adding library “stm8”, file “${KICAD_SYMBOL_DIR}/stm8.lib” to project symbol library table.
+Info: Adding library “stm32”, file “${KICAD_SYMBOL_DIR}/stm32.lib” to project symbol library table.
+Info: Adding library “supertex”, file “${KICAD_SYMBOL_DIR}/supertex.lib” to project symbol library table.
+Info: Adding library “switches”, file “${KICAD_SYMBOL_DIR}/switches.lib” to project symbol library table.
+Info: Adding library “transf”, file “${KICAD_SYMBOL_DIR}/transf.lib” to project symbol library table.
+Info: Adding library “ttl_ieee”, file “${KICAD_SYMBOL_DIR}/ttl_ieee.lib” to project symbol library table.
+Info: Adding library “wiznet”, file “${KICAD_SYMBOL_DIR}/wiznet.lib” to project symbol library table.
+Info: Adding library “Worldsemi”, file “${KICAD_SYMBOL_DIR}/Worldsemi.lib” to project symbol library table.
+Info: Adding library “Xicor”, file “${KICAD_SYMBOL_DIR}/Xicor.lib” to project symbol library table.
+Info: Adding library “zetex”, file “${KICAD_SYMBOL_DIR}/zetex.lib” to project symbol library table.
+Info: Adding library “Zilog”, file “${KICAD_SYMBOL_DIR}/Zilog.lib” to project symbol library table.
+Info: Adding library “dk_PMIC-Voltage-Reference”, file “${KICAD_SYMBOL_DIR}/digikey-symbols/dk_PMIC-Voltage-Reference.lib” to project symbol library table.
+Info: Adding library “dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers”, file “${KICAD_SYMBOL_DIR}/digikey-symbols/dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers.lib” to project symbol library table.
+Info: Adding library “dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators”, file “${KICAD_SYMBOL_DIR}/digikey-symbols/dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators.lib” to project symbol library table.
+Info: Adding library “dk_PMIC-Voltage-Regulators-Linear”, file “${KICAD_SYMBOL_DIR}/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib” to project symbol library table.
+Info: Adding library “dk_PMIC-Voltage-Regulators-Special-Purpose”, file “${KICAD_SYMBOL_DIR}/digikey-symbols/dk_PMIC-Voltage-Regulators-Special-Purpose.lib” to project symbol library table.
+Symbol “Fiducial” mapped to symbol library “EISScube_LTE”.
+Symbol “Fiducial” mapped to symbol library “EISScube_LTE”.
+Symbol “Fiducial” mapped to symbol library “EISScube_LTE”.
+Symbol “Fiducial” mapped to symbol library “EISScube_LTE”.
+Symbol “Fiducial” mapped to symbol library “EISScube_LTE”.
+Symbol “Fiducial” mapped to symbol library “EISScube_LTE”.
+Symbol “STM32L051C8Tx” mapped to symbol library “MCU_ST_STM32”.
+Symbol “Crystal” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “Crystal_GND24” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “+1V8” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “Conn_01x02_Male” mapped to symbol library “conn”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+1V8” mapped to symbol library “power”.
+Symbol “+1V8” mapped to symbol library “power”.
+Symbol “+1V8” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “+1V8” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “SN74LV1T34DBVR” mapped to symbol library “EISScube_LTE”.
+Symbol “Conn_01x03_Male” mapped to symbol library “conn”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “Conn_01x05_Female” mapped to symbol library “conn”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “SW_Push” mapped to symbol library “Switch”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “1N4001” mapped to symbol library “Diode”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “LTV-357T” mapped to symbol library “opto”.
+Symbol “U-Blox-SARA-R4” mapped to symbol library “EISScube_LTE”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “L” mapped to symbol library “Device”.
+Symbol “L” mapped to symbol library “Device”.
+Symbol “Antenna_Shield” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “Q_NMOS_GSD” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “Q_NMOS_GSD” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+3V8” mapped to symbol library “power”.
+Symbol “VBUS05B1-SD0” mapped to symbol library “EISScube_LTE”.
+Symbol “SIM_Card_w_det_sw” mapped to symbol library “EISScube_LTE”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+3V8” mapped to symbol library “power”.
+Symbol “VBUS05B1-SD0” mapped to symbol library “EISScube_LTE”.
+Symbol “VBUS05B1-SD0” mapped to symbol library “EISScube_LTE”.
+Symbol “VBUS05B1-SD0” mapped to symbol library “EISScube_LTE”.
+Symbol “VBUS05B1-SD0” mapped to symbol library “EISScube_LTE”.
+Symbol “VBUS05B1-SD0” mapped to symbol library “EISScube_LTE”.
+Symbol “VBUS05B1-SD0” mapped to symbol library “EISScube_LTE”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “USB_B_Mini” mapped to symbol library “EISScube_LTE”.
+Symbol “Q_NMOS_GSD” mapped to symbol library “Device”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “Test_Point” mapped to symbol library “Connector_Specialized”.
+Symbol “L7805” mapped to symbol library “regul”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “+3V3” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+1V8” mapped to symbol library “power”.
+Symbol “MIC29302WU-TR” mapped to symbol library “EISScube_LTE”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+12V” mapped to symbol library “power”.
+Symbol “+3V8” mapped to symbol library “power”.
+Symbol “U-Blox-SARA-R4” mapped to symbol library “EISScube_LTE”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “LM1117-3.3” mapped to symbol library “regul”.
+Symbol “LM1117-1.8” mapped to symbol library “regul”.
+Symbol “L” mapped to symbol library “Device”.
+Symbol “+12V” mapped to symbol library “power”.
+Symbol “MBL104S” mapped to symbol library “Diode_Bridge”.
+Symbol “B120-E3” mapped to symbol library “Diode”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “Screw_Terminal_01x08” mapped to symbol library “conn”.
+Symbol “Q_NMOS_GSD” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “LED” mapped to symbol library “Device”.
+Symbol “+12V” mapped to symbol library “power”.
+Symbol “SANYOU_SRD_Form_C” mapped to symbol library “EISScube-v3.0-LTE-rescue”.
+Symbol “PWR_FLAG” mapped to symbol library “power”.
+Symbol “LM2576HVS-12” mapped to symbol library “EISScube_LTE”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “PWR_FLAG” mapped to symbol library “power”.
+Info: Symbol library table mapping complete!
